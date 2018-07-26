@@ -2,6 +2,7 @@
 
 To create an admin user, use the CLI with the following commands:
 
+- `php artisan tinker`
 - `$admin = new App\Admin`
 - `$admin->email = "YOUR_EMAIL";`
 - `$admin->password = Hash::make('YOUR_PASSWORD');`
