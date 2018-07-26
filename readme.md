@@ -1,10 +1,10 @@
 ## Laravel Job Test
 
 To create an admin user, use the CLI with the following commands:
-'$admin = new App\Admin'
-'$admin->email = "YOUR_EMAIL";'
-'$admin->password = Hash::make('YOUR_PASSWORD');'
-'$admin->save();'
+`$admin = new App\Admin`
+`$admin->email = "YOUR_EMAIL";`
+`$admin->password = Hash::make('YOUR_PASSWORD');`
+`$admin->save();`
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
